@@ -22,13 +22,14 @@ public:
 	//functions
 	
 	int testValue();
-	int passesMade(int array1[3]);
-	int dribblesMade(int array1[3], int tackles);
+	int passesMade(int array1[11]);
+	int dribblesMade(int array1[11], int tackles);
 	int chancesMade(int, int);
 	int shots_on_target(int,int);
-	int shootingAccuracy(int array1[3]);
-	int tacklesMade(int array1[7]);
-	int goalKeeping(int array1[7]);
+	int shootingAccuracy(int array1[11]);
+	int tacklesMade(int array1[11]);
+	int goalKeeping(int array1[11]);
+	void shotAnim();
 
 
 

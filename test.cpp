@@ -3,20 +3,39 @@
 #include<string>
 #include<vector>
 #include<array>
+#include<time.h>
+#include<stdlib.h>
+#include<stdio.h>
+#include<conio.h>
 #include"Footballer1.h"
-#include"Menu.h""
 #include"Functions.h"
 #include"Gameplay.h"
+#include"test.h"
 
-using namespace std;
+
+
+
+
 
 int main()
 {
+
+
+	mainMenu();
+	/*
 	do {
-
-		mainMenu();
-
+		
+		while (1) {
+		
+			counter();
+			system("cls");
+			cout << "Enter 0 to resume the game: ";
+		}
 	} while (true);
 
+	*/
+
+
 }
+
 

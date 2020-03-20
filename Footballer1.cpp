@@ -76,12 +76,17 @@ int Footballer::getGoalkeeping() {
 }
 
 int Footballer::getOverall() {
-	int overall = passing + speed + dribbling + defending + shooting;
+	int overall = passing + speed + dribbling + defending + shooting + goalKeeping;
 	return overall;
 }
 
 
 void Footballer::selected() {
 	picked = 1;
+
+}
+
+void Footballer::notSelected() {
+	picked = 0;
 
 }

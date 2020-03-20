@@ -30,7 +30,9 @@ public:
 	int getGoalkeeping();
 	int getOverall();
 	void selected();
+	void notSelected();
 	int playerPicked();
+
 
 
 private:
